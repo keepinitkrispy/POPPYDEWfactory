@@ -12,7 +12,11 @@ window/size/viewport_height=1080
 window/stretch/mode="viewport"
 window/stretch/aspect="keep"
 
+[autoload]
+Global="*res://scripts/autoload/Global.gd"
+
 [rendering]
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 textures/vram_compression/import_etc2_astc=true
+environment/default_clear_color=Color(0.047, 0.047, 0.094, 1)
